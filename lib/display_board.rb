@@ -35,7 +35,7 @@ def display_board
   # expect(output).to eq(expected_output)
 end
 
-puts display_board
+print display_board
 
 
 
