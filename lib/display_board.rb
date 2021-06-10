@@ -32,7 +32,6 @@ def display_board
   # expected_output += "   |   |   \n"
 
   # expect(output).to eq(expected_output)
-  end
 end
 
 puts display_board
