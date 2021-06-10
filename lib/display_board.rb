@@ -2,8 +2,8 @@
 def display_board
   puts "Welcome to Tic Tac Toe!"
   puts "This is a Tic Tac Toe Board:"
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  display_board(board)
+  # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  # display_board(board)
   # output = capture_puts{display_board}
   # expected_output  = "   |   |   \n"
   # expected_output += "-----------\n"
