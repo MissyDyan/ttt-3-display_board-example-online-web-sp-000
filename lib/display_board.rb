@@ -13,6 +13,7 @@ def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
+  print_display_board
   # expect(output).to eq(expected_output)
   # puts " #{board[0]} | #{board[1]} | #{board[2]}"
   # puts "-----------"
