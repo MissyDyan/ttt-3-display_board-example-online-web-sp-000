@@ -22,6 +22,16 @@ def display_board
   # puts "-----------"
   # puts " #{board[6]} | #{board[7]} | #{board[8]}"
   # # end
+
+  output = capture_puts{ display_board }
+
+  expected_output  = "   |   |   \n"
+  expected_output += "-----------\n"
+  expected_output += "   |   |   \n"
+  expected_output += "-----------\n"
+  expected_output += "   |   |   \n"
+
+  expect(output).to eq(expected_output)
 end
 
 puts display_board
