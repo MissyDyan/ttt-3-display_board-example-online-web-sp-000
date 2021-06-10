@@ -2,6 +2,8 @@
 def display_board
   puts "Welcome to Tic Tac Toe!"
   puts "This is a Tic Tac Toe Board:"
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  display_board(board)
   # output = capture_puts{display_board}
   # expected_output  = "   |   |   \n"
   # expected_output += "-----------\n"
@@ -12,14 +14,14 @@ def display_board
   # puts "-----------"
   # puts "   |   |   "
   # puts "-----------"
-  # puts "   |   |   "
-  expect(output).to eq(expected_output)
-  puts " #{board[0]} | #{board[1]} | #{board[2]}"
-  puts "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]}"
-  puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]}"
-  # end
+  # # puts "   |   |   "
+  # expect(output).to eq(expected_output)
+  # puts " #{board[0]} | #{board[1]} | #{board[2]}"
+  # puts "-----------"
+  # puts " #{board[3]} | #{board[4]} | #{board[5]}"
+  # puts "-----------"
+  # puts " #{board[6]} | #{board[7]} | #{board[8]}"
+  # # end
 end
 
 puts display_board
